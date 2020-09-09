@@ -9,7 +9,7 @@ class Program
     {
         return value1 + value2;
     }
-    public static double Subtract(double value1, double value2)
+    public static double Sub(double value1, double value2)
     {
         return value1 - value2;
     }
@@ -18,15 +18,15 @@ class Program
     public static void Main()
     {
 
+        MathDelegate AddMathDel = new MathDelegate(Add);
+        MathDelegate SubMathDel = new MathDelegate(Sub);
 
-        MathDelegate mathDelegate = Add;
-        var result = mathDelegate(5, 2);
-        Console.WriteLine(result);
+
+        var a = AddMathDel(5, 2);
+        var b = SubMathDel(5, 2);
+        Console.WriteLine(a);
+        Console.WriteLine(b);
         // вывод: 7
-
-        mathDelegate = Subtract;
-        result = mathDelegate(5, 2);
-        Console.WriteLine(result);
         // вывод: 3
 
     }
