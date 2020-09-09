@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Delegierte_und_Veranstaltungen
 {
-    class Dell_1
+    public class Dell_1
     {
         public delegate double MathDelegate(double value1, double value2);
 
