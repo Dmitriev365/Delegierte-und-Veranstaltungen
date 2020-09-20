@@ -1,18 +1,23 @@
-﻿//using System;
-using Delegierte_und_Veranstaltungen;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-class Program
+namespace Delegierte_und_Veranstaltungen
 {
-
-  static void Main()
+    class Program
     {
-        
-        
-        System.Windows.Forms.MessageBox.Show("Test");
+
+        static void Main()
+        {
+
+            ConsoleText Printtext = new ConsoleText(Dell_0.Message);
+
+            Printtext.Invoke();
 
 
+            Console.ReadKey();
+
+
+        }
     }
-  
-   
 }

@@ -16,9 +16,9 @@ namespace Delegierte_und_Veranstaltungen
         {
             return value1 - value2;
         }
-        Console.ReadLine();
+       
 
-    public static void Main()
+    public static void TT()
         {
             MathDelegate mathDelegate = Add;
             var result = mathDelegate(5, 2);
@@ -28,8 +28,11 @@ namespace Delegierte_und_Veranstaltungen
             mathDelegate = Subtract;
             result = mathDelegate(5, 2);
             Console.WriteLine(result);
+
+            Console.ReadLine();
             // вывод: 3
 
         }
 
     }
+}

@@ -18,7 +18,7 @@ namespace Delegierte_und_Veranstaltungen
 
         delegate void Del(string s);
 
-        static void Main()
+        static void TT()
         {
             Del a, b, c, d;
 
@@ -65,10 +65,10 @@ namespace Delegierte_und_Veranstaltungen
 
 
 
-Это возможно, поскольку делегаты наследуются от класса System.MulticastDelegate,
-    который, в свою очередь, наследуется от System.Delegate. Вы можете использовать члены, 
-    определенные в этих базовых классах для ваших делегатов.
+//Это возможно, поскольку делегаты наследуются от класса System.MulticastDelegate,
+    //который, в свою очередь, наследуется от System.Delegate. Вы можете использовать члены, 
+   // определенные в этих базовых классах для ваших делегатов.
 
-Например, чтобы узнать, сколько методов будет вызывать многоадресный делегат, вы можете использовать следующий код:
+//Например, чтобы узнать, сколько методов будет вызывать многоадресный делегат, вы можете использовать следующий код:
 
-int invocationCount = d.GetInvocationList().GetLength(0);
+//int invocationCount = d.GetInvocationList().GetLength(0);
