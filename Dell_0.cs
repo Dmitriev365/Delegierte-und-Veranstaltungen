@@ -9,7 +9,7 @@ namespace Delegierte_und_Veranstaltungen
 
         static public void Message()
         {
-            Console.WriteLine("TEXT");
+            Console.WriteLine(" Dell_0");
         }
 
     }

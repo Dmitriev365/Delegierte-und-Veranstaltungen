@@ -6,4 +6,12 @@
     <RootNamespace>Delegierte_und_Veranstaltungen</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Dell_2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Dell_2.cs" />
+  </ItemGroup>
+
 </Project>
